@@ -14,7 +14,7 @@
         header {
             background-color: #561C24;
             color: #C7B7A3;
-            padding: 10px;
+            padding: 0px;
             display: flex;
             justify-content: space-between;
             align-items: center;
@@ -41,7 +41,7 @@
         }
 
         .rectangle {
-            background-color: #561C24;
+            background-color: #E8D8C4;
             width: 100%;
             height: 200px; /* Adjust height as needed */
             display: flex;
@@ -51,7 +51,7 @@
 
         .rectangle p {
             font-size: 24px;
-            color: #C7B7A3;
+            color: #6D2932;
         }
 
         .grid-container {
@@ -62,17 +62,31 @@
         }
 
         .grid-item {
-            background-color: #ccc;
-            padding: 20px;
+            background-color: #561C24;
+            padding: 100px;
         }
 
         .grid-item h3 {
             margin: 0;
             font-size: 18px;
+            background-color: #C7B7A3;
+        }
+
+        /* Change text color for specific grid items */
+        .students-complaints h3 a {
+            color: #fff;
+        }
+
+        .my-complaints h3 a {
+            color: #fff;
+        }
+
+        .dissatisfied-complaints h3 a {
+            color: #fff;
         }
 
         .grid-item h3 a {
-            color: #561C24;
+            color: #C7B7A3;
             text-decoration: none;
         }
     </style>
@@ -94,13 +108,13 @@
             <p>Resolving concerns before they escalate</p>
         </div>
         <div class="grid-container">
-            <div class="grid-item">
+            <div class="grid-item students-complaints">
                 <a href="#"><h3>Students Complaints</h3></a>
             </div>
-            <div class="grid-item">
+            <div class="grid-item my-complaints">
                 <a href="#"><h3>My Complaints</h3></a>
             </div>
-            <div class="grid-item">
+            <div class="grid-item dissatisfied-complaints">
                 <a href="#"><h3>Dissatisfied Complaints</h3></a>
             </div>
         </div>
