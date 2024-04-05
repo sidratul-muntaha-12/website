@@ -12,8 +12,8 @@
         }
 
         header {
-            background-color: #561C24;
-            color: #C7B7A3;
+            background-color: #240A34;
+            color: #FFEDD8;
             padding: 0px;
             display: flex;
             justify-content: space-between;
@@ -32,7 +32,7 @@
         }
 
         nav ul li a {
-            color: #C7B7A3;
+            color: #FFEDD8;
             text-decoration: none;
         }
 
@@ -41,7 +41,7 @@
         }
 
         .rectangle {
-            background-color: #E8D8C4;
+            background-color: #EABE6C;
             width: 100%;
             height: 200px; /* Adjust height as needed */
             display: flex;
@@ -51,7 +51,7 @@
 
         .rectangle p {
             font-size: 24px;
-            color: #6D2932;
+            color: #240A34;
         }
 
         .grid-container {
@@ -62,32 +62,43 @@
         }
 
         .grid-item {
-            background-color: #561C24;
-            padding: 100px;
+            background-color: #891652;
+            padding: 20px;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
         }
 
         .grid-item h3 {
             margin: 0;
             font-size: 18px;
-            background-color: #C7B7A3;
+            background-color: #FFEDD8;
+            padding: 10px;
         }
 
         /* Change text color for specific grid items */
         .students-complaints h3 a {
-            color: #fff;
+            color: #FFEDD8;
         }
 
         .my-complaints h3 a {
-            color: #fff;
+            color: #FFEDD8;
         }
 
         .dissatisfied-complaints h3 a {
-            color: #fff;
+            color: #FFEDD8;
         }
 
         .grid-item h3 a {
-            color: #C7B7A3;
+            color: #240A34;
             text-decoration: none;
+        }
+
+        .grid-item img {
+            max-width: 100%;
+            max-height: 100%;
         }
     </style>
 </head>
@@ -110,12 +121,15 @@
         <div class="grid-container">
             <div class="grid-item students-complaints">
                 <a href="#"><h3>Students Complaints</h3></a>
+                <img src="wide11.png" alt="Students Complaints">
             </div>
             <div class="grid-item my-complaints">
                 <a href="#"><h3>My Complaints</h3></a>
+                <img src="wide11.png" alt="My Complaints">
             </div>
             <div class="grid-item dissatisfied-complaints">
                 <a href="#"><h3>Dissatisfied Complaints</h3></a>
+                <img src="wide11.png" alt="Dissatisfied Complaints">
             </div>
         </div>
     </main>

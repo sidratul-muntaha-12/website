@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SNK Hall Voice</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+
+        header {
+            background-color: #240A34;
+            color: #FFEDD8;
+            padding: 10px;
+            text-align: center;
+            border-bottom: 2px solid #240A34;
+        }
+
+        nav ul {
+            list-style-type: none;
+            margin: 0;
+            padding: 0;
+            text-align: center;
+        }
+
+        nav ul li {
+            display: inline;
+            margin-right: 20px;
+        }
+
+        nav ul li a {
+            color: #891652;
+            text-decoration: none;
+            border: 1px solid #891652;
+            padding: 5px 10px;
+            border-radius: 5px;
+        }
+
+        main {
+            text-align: center;
+            padding: 20px;
+        }
+
+        .image-container {
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .image-container img {
+            max-width: 70%;
+        }
+
+        .grid-container {
+            display: grid;
+            grid-template-columns: repeat(2, 1fr);
+            grid-gap: 20px;
+            margin-top: 20px;
+        }
+
+        .grid-item {
+            background-color: #EABE6C;
+            padding: 20px;
+            border-radius: 10px;
+        }
+
+        .grid-item h3 {
+            margin: 0;
+            font-size: 18px;
+            color: #240A34;
+        }
+
+        .grid-item a {
+            color: #240A34;
+            text-decoration: none;
+            display: block;
+            margin-top: 10px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>SNK Hall Voice</h1>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Reports</a></li>
+                <li><a href="#">Announcement</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">My Profile</a></li>
+                <li><a href="#">Logout</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <div class="image-container">
+            <img src="wide11.png" alt="Your Image">
+        </div>
+        <div class="grid-container">
+            <div class="grid-item">
+                <h3>Submitted Complaints</h3>
+                <a href="#">View Details</a>
+            </div>
+            <div class="grid-item">
+                <h3>Dissatisfied Complaints</h3>
+                <a href="#">View Details</a>
+            </div>
+            <div class="grid-item">
+                <h3>In Process</h3>
+                <a href="#">View Details</a>
+            </div>
+            <div class="grid-item">
+                <h3>Completed</h3>
+                <a href="#">View Details</a>
+            </div>
+        </div>
+    </main>
+</body>
+</html>
